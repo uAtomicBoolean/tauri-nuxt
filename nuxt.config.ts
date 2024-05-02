@@ -3,7 +3,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	ssr: false,
 	modules: [
-		'@nuxtjs/eslint-module',
 		'@nuxt/ui',
+		'@nuxtjs/eslint-module',
 	],
 });
