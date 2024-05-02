@@ -3,11 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tauri build",
-    "dev": "tauri dev",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "tauri": "NO_STRIP=true tauri"
   },
   "dependencies": {
     "@nuxt/ui": "^2.15.2",
