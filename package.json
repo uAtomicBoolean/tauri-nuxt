@@ -11,20 +11,21 @@
     "tauri": "NO_STRIP=true tauri"
   },
   "dependencies": {
-    "@nuxt/icon": "^1.0.0",
-    "@tauri-apps/api": "^1.5.4",
-    "nuxt": "^3.11.1",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "@nuxt/icon": "^1.4.5",
+    "@tauri-apps/api": "^2.0.0-rc.0",
+    "@tauri-apps/plugin-shell": "^2.0.0-rc.0",
+    "nuxt": "^3.12.4",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/tailwindcss": "^6.12.0",
-    "@tauri-apps/cli": "^1.5.12",
-    "@typescript-eslint/eslint-plugin": "^7.5.0",
-    "@typescript-eslint/parser": "^7.5.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@tauri-apps/cli": "^2.0.0-rc.3",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.24.0",
-    "tailwindcss": "^3.4.3"
+    "eslint-plugin-vue": "^9.27.0",
+    "tailwindcss": "^3.4.9"
   }
 }
