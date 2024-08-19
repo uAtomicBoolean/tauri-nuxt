@@ -21,7 +21,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@tauri-apps/cli": "^2.0.0-rc.3",
+    "@tauri-apps/cli": "^2.0.0-rc.4",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",
