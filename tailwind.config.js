@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import colors from 'tailwindcss/colors';
 
-
 export default {
 	content: [
 		'src/components/**/*.{vue,js,ts}',
@@ -14,15 +13,14 @@ export default {
 		'src/app.{js,ts,vue}',
 		'src/Error.{js,ts,vue}',
 		'src/error.{js,ts,vue}',
-		'src/app.config.{js,ts}'],
+		'src/app.config.{js,ts}',
+	],
 	theme: {
 		extend: {
 			colors: {
-				primary: colors.sky,
+				primary: colors.green,
 				gray: colors.zinc,
-
 			},
 		},
 	},
-	plugins: [],
 };

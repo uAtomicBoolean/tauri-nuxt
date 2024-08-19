@@ -1,9 +1,26 @@
 {
+  "productName": "tauri-nuxt",
+  "version": "0.1.0",
+  "identifier": "tauri-nuxt",
   "build": {
-    "beforeDevCommand": "nuxt dev",
-    "beforeBuildCommand": "nuxt generate",
     "frontendDist": "../dist",
-    "devUrl": "http://localhost:3000"
+    "devUrl": "http://localhost:3000",
+    "beforeDevCommand": "bun dev",
+    "beforeBuildCommand": "bun generate"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "tauri-nuxt",
+        "width": 1280,
+        "height": 720,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
   },
   "bundle": {
     "active": true,
@@ -16,21 +33,5 @@
       "icons/icon.ico"
     ]
   },
-  "productName": "tauri-nuxt",
-  "version": "0.0.0",
-  "identifier": "com.tauri.nuxt",
-  "plugins": {},
-  "app": {
-    "withGlobalTauri": true,
-    "windows": [
-      {
-        "title": "tauri-nuxt",
-        "width": 800,
-        "height": 600
-      }
-    ],
-    "security": {
-      "csp": null
-    }
-  }
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json"
 }

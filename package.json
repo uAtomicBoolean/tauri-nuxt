@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "tauri-nuxt",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,25 +7,25 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "tauri": "NO_STRIP=true tauri"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.7.1",
     "@nuxt/icon": "^1.4.5",
-    "@tauri-apps/api": "^2.0.0-rc.0",
-    "@tauri-apps/plugin-shell": "^2.0.0-rc.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@tauri-apps/api": "^2.0.0-rc.2",
     "nuxt": "^3.12.4",
-    "vue": "^3.4.37",
-    "vue-router": "^4.4.3"
+    "vue": "^3.4.35",
+    "vue-router": "^4.4.2"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.1.205",
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/tailwindcss": "^6.12.1",
     "@tauri-apps/cli": "^2.0.0-rc.4",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.27.0",
-    "tailwindcss": "^3.4.9"
+    "tailwindcss": "^3.4.7"
   }
 }
