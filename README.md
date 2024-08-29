@@ -3,10 +3,10 @@ Simple template to use Tauri with Nuxt 3 with some pre-installed and configured 
 The Nuxt configuration is based on the [official V2 recommandations](https://v2.tauri.app/start/frontend/nuxt/).  
 
 The pre-installed modules are:
-- eslint-module
-- fonts
-- icon
-- tailwindcss
+- [eslint-module](https://nuxt.com/modules/eslint-module)
+- [fonts](https://nuxt.com/modules/fonts)
+- [icon](https://nuxt.com/modules/icon)
+- [tailwindcss](https://nuxt.com/modules/tailwindcss)
 
 ## Update the package's informations
 After cloning, you need at least the following informations:
