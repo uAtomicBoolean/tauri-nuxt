@@ -9,10 +9,11 @@ The pre-installed modules are:
 - [tailwindcss](https://nuxt.com/modules/tailwindcss)
 
 ## Update the package's informations
-After cloning, you need at least the following informations:
-- package name in `package.json`.
-- package informations in `src-tauri/Cargo.toml`.
-- app information in `src-tauri/tauri.conf.json`.
+The projects comes with template data in the configuration files (author, package's name, etc). This need to be changed after cloning.  
+Update the following files:
+- `package.json`.
+- `src-tauri/Cargo.toml`.
+- `src-tauri/tauri.conf.json`.
 
 ## Start the app
 This repo was built using `bun` but you can use an other package manager.  
