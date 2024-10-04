@@ -11,21 +11,21 @@
   },
   "dependencies": {
     "@nuxt/fonts": "^0.7.2",
-    "@nuxt/icon": "^1.5.0",
+    "@nuxt/icon": "^1.5.3",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@tauri-apps/api": "^2.0.0-rc.4",
-    "nuxt": "^3.13.0",
-    "vue": "^3.4.38",
-    "vue-router": "^4.4.3"
+    "@tauri-apps/api": "^2.0.1",
+    "nuxt": "^3.13.2",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.1.209",
+    "@iconify-json/lucide": "^1.2.7",
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@tauri-apps/cli": "^2.0.0-rc.8",
+    "@tauri-apps/cli": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.27.0",
-    "tailwindcss": "^3.4.10"
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.28.0",
+    "tailwindcss": "^3.4.13"
   }
 }
