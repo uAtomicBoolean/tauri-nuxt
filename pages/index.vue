@@ -1,4 +1,4 @@
 <template>
-	<h1 class="text-2xl">Hello you !</h1>
-	<p>Testing a message</p>
+	<h1 class="text-2xl font-semibold">Main title</h1>
+	<p>Some random text.</p>
 </template>
