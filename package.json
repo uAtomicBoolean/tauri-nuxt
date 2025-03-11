@@ -11,25 +11,25 @@
   },
   "dependencies": {
     "@nuxt/fonts": "^0.7.2",
-    "@tauri-apps/api": "^2",
-    "nuxt": "^3.15.2",
+    "@tauri-apps/api": "^2.3.0",
+    "nuxt": "^3.16.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.18.0",
-    "@iconify-json/lucide": "^1.2.24",
-    "@nuxt/eslint": "^0.7.5",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
+    "@iconify-json/lucide": "^1.2.29",
+    "@nuxt/eslint": "^0.7.6",
     "@nuxt/icon": "^1.10.3",
-    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@nuxtjs/tailwindcss": "^6.13.2",
     "@stylistic/eslint-plugin": "^2.13.0",
-    "@tauri-apps/cli": "^2",
+    "@tauri-apps/cli": "^2.3.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.1",
-    "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.14.0",
+    "eslint-plugin-vue": "^9.33.0",
+    "globals": "^15.15.0",
     "tailwindcss": "^3.4.17"
   }
 }
